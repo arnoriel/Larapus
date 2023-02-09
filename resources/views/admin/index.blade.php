@@ -1,9 +1,10 @@
 @extends('layouts.admin')
 
 @section('content')
-<h1>Halo, <strong>{{ Auth::user()->name }}</strong></h1>
+
 <main id="main" class="main">
 
+  <h1>Halo, <strong>{{ Auth::user()->name }}</strong></h1>
     <div class="pagetitle">
       <h1>Dashboard</h1>
       <nav>
